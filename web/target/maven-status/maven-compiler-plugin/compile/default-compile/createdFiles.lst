@@ -1,0 +1,10 @@
+com\leszekszymaszek\GameServiceImpl.class
+com\leszekszymaszek\util\ViewNames.class
+com\leszekszymaszek\iterceptor\RequestInterceptor.class
+com\leszekszymaszek\util\AttributeNames.class
+com\leszekszymaszek\controller\GameController.class
+com\leszekszymaszek\util\DecoupledLogicSetup.class
+com\leszekszymaszek\util\GameMappings.class
+com\leszekszymaszek\WebConfig.class
+com\leszekszymaszek\WebMain.class
+com\leszekszymaszek\GameService.class

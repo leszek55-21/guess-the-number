@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <meta charset="UTF-8">
+    <title>Play</title>
+</head>
+<body>
+    <div align="center">
+        <h1 id="title">Guess the number game</h1>
+        <h3 id="mainMessage">
+            Main message Content
+        </h3>
+        <h3 id="resultMessage">
+            Result message Content
+        </h3>
+        <div style="margin: 10px">
+            <form id="game-form"
+                  method="POST">
+                <label id="enter-guess" for="guess">Enter your guess</label>
+                <input name="guess" id="guess" type="number" required/>
+                <input id="submit" type="submit" value="SUBMIT">
+            </form>
+        </div>
+
+        <div style="margin: 10px">
+            <form id="lang-form">
+                <div id="lang-choose">
+                    <label>Choose language</label>
+                    <select>
+                        <option>POL</option>
+                        <option>ENG</option>
+                        <option>ESP</option>
+                    </select>
+                    <input id="choose" type="submit" value="Choose"/>
+                </div>
+            </form>
+        </div>
+
+        <footer id="footer">
+            <p>Created by Leszek Szymaszek</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

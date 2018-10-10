@@ -1,0 +1,12 @@
+<thlogic>
+    <attr sel="#head" th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#title" th:text="#{game.title}"/>
+    <attr sel="#enter-guess" th:text="#{game.enter.guess}"/>
+    <attr sel="#submit" th:value="#{game.submit}"/>
+    <attr sel="#mainMessage" th:text="${__${T(com.leszekszymaszek.util.AttributeNames).MAIN_MESSAGE}__}"/>
+    <attr sel="#resultMessage" th:text="${__${T(com.leszekszymaszek.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#game-form" th:action="@{__${T(com.leszekszymaszek.util.GameMappings).PLAY}__}"/>
+    <attr sel="#lang-choose" th:replace="~{fragments/lang-form :: langChooseFragment}"/>
+    <attr sel="#lang-form" th:action="@{__${T(com.leszekszymaszek.util.GameMappings).PLAY}__}"/>
+    <attr sel="#footer" th:replace="~{fragments/footer :: footerFragment}" />
+</thlogic>

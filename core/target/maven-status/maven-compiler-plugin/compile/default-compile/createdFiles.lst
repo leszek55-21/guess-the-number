@@ -1,0 +1,10 @@
+com\leszekszymaszek\MinNumber.class
+com\leszekszymaszek\GameImpl.class
+com\leszekszymaszek\MaxNumber.class
+com\leszekszymaszek\config\GameConfig.class
+com\leszekszymaszek\Game.class
+com\leszekszymaszek\MessageGeneratorImpl.class
+com\leszekszymaszek\NumberGeneratorImpl.class
+com\leszekszymaszek\MessageGenerator.class
+com\leszekszymaszek\GuessCount.class
+com\leszekszymaszek\NumberGenerator.class
