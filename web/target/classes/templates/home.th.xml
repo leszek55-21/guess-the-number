@@ -1,9 +1,0 @@
-<thlogic>
-    <attr sel="#head"   th:replace="~{fragments/head :: headFragment}"/>
-    <attr sel="#welcome" th:text="#{game.welcome}"/>
-    <attr sel="#play"   th:href="@{__${T(com.leszekszymaszek.util.GameMappings).PLAY}__}"
-                        th:text="#{game.play}"/>
-    <attr sel="#lang-form" th:action="@{__${T(com.leszekszymaszek.util.GameMappings).HOME}__}"/>
-    <attr sel="#lang-choose" th:replace="~{fragments/lang-form :: langChooseFragment}"/>
-    <attr sel="#footer" th:replace="~{fragments/footer :: footerFragment}"/>
-</thlogic>
